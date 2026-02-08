@@ -99,3 +99,5 @@ resource "aws_instance" "logstash_server" {
 output "public_ip" {
   value = aws_instance.logstash_server.public_ip
 }
+
+#logstash - has no web ui , u cannot access it through web browser
