@@ -1,0 +1,16 @@
+Big Picture Motive
+
+The goal of this code is to:
+
+1.Provision infrastructure on AWS using Terraform
+
+2.Launch an EC2 instance running Jenkins
+
+3.Secure access using IAM roles, security groups, and key pairs
+
+4.Store and monitor logs using S3 + CloudWatch
+
+5.Expose Jenkins via a public URL
+
+Think of it as:
+“Automated Jenkins server with logging, monitoring, and basic security.”
